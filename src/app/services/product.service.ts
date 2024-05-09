@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class ProductService {
 
-  url = 'http://ec2-3-82-6-253.compute-1.amazonaws.com:8080/api/products';
+  url = 'http://ec2-18-212-28-141.compute-1.amazonaws.com:8080/api/products';
 
   constructor(private httpClient: HttpClient) { }
 
