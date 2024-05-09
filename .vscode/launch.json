@@ -7,8 +7,8 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
+            "name": "Launch Chrome against ec2-3-82-6-253.compute-1.amazonaws.com",
+            "url": "http://ec2-3-82-6-253.compute-1.amazonaws.com:8080",
             "webRoot": "${workspaceFolder}"
         }
     ]

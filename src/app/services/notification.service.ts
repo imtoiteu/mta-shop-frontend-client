@@ -7,7 +7,7 @@ import { Notification } from '../common/Notification';
 })
 export class NotificationService {
 
-  url = 'http://localhost:8080/api/notification';
+  url = 'http://ec2-3-82-6-253.compute-1.amazonaws.com:8080/api/notification';
 
   constructor(private http: HttpClient) { }
 
