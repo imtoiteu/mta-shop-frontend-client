@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class ProductService {
 
-  url = 'http://ec2-54-237-189-33.compute-1.amazonaws.com:8080/api/products';
+  url = 'https://d2505jbzq2fjuy.cloudfront.net/api/products';
 
   constructor(private httpClient: HttpClient) { }
 

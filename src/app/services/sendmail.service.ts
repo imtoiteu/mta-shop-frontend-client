@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class SendmailService {
 
-  url = 'http://ec2-54-237-189-33.compute-1.amazonaws.com:8080/api/send-mail'
+  url = 'https://d2505jbzq2fjuy.cloudfront.net/api/send-mail'
 
   constructor(private httpClient: HttpClient) { }
 

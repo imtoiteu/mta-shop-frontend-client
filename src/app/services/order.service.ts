@@ -7,9 +7,9 @@ import { Cart } from '../common/Cart';
 })
 export class OrderService {
 
-  url = "http://ec2-54-237-189-33.compute-1.amazonaws.com:8080/api/orders";
+  url = "https://d2505jbzq2fjuy.cloudfront.net/api/orders";
 
-  urlOrderDetail = "http://ec2-54-237-189-33.compute-1.amazonaws.com:8080/api/orderDetail";
+  urlOrderDetail = "https://d2505jbzq2fjuy.cloudfront.net/api/orderDetail";
 
   constructor(private httpClient: HttpClient) { }
 

@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class CategoryService {
 
-  url = "http://ec2-54-237-189-33.compute-1.amazonaws.com:8080/api/categories";
+  url = "https://d2505jbzq2fjuy.cloudfront.net/api/categories";
   
   constructor(private httpClient: HttpClient) { }
   
