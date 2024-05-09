@@ -8,7 +8,7 @@ import { Favorites } from '../common/Favorites';
 })
 export class FavoritesService {
 
-  url = 'http://ec2-18-212-28-141.compute-1.amazonaws.com:8080/api/favorites';
+  url = 'http://ec2-54-237-189-33.compute-1.amazonaws.com:8080/api/favorites';
 
   constructor(private httpClient: HttpClient) { }
 
